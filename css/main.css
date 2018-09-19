@@ -125,7 +125,7 @@ ul li {
 #header {
     background-color: rgb(142, 227, 233);
     margin-bottom: 100px;
-    border-radius: 30px;
+    border-radius: 3px;
 }
 /*Puts the lign description of header in center and italic*/
 #description {
@@ -137,7 +137,7 @@ ul li {
     background-color: rgb(235, 205, 141);
     padding-left: 30px;
     margin-right: 900px;
-    border-radius: 30px;
+    border-radius: 3px;
 }
 /*Puts this section in the middle next to the section contact information*/
 #experience {
