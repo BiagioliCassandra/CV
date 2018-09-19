@@ -103,63 +103,57 @@ h1 {
 }
 /*align the title in left*/
 h2 {
-    text-align: left; 
-}
-/*Reduced the size of lines*/
-p {
-    line-height: 80%;
+    text-align: center; 
+    color: rgb(146, 42, 56); 
 }
 /*Color the line in list*/
 ul li {
     background-color: bisque;
 }
+/*Puts backgound color in blue, puts the background in circle and puts marge bottom the header*/
+header {
+    width: 100%;
+    background-color: rgb(142, 227, 233);
+    margin-bottom: 5%;
+    border-radius: 3px;
+}
+main {
+    width: 100%;
+}
+footer {
+    width: 100%;
+}
 /*Delete the puce*/
 .puce {
     list-style-type: none;
 }
-/*Puts the date in italic*/
-.italic {
-    font-style: italic;
-}
-/*Puts backgound color in blue, puts the background in circle and puts marge bottom the header*/
-#header {
-    background-color: rgb(142, 227, 233);
-    margin-bottom: 100px;
-    border-radius: 3px;
-}
 /*Puts the lign description of header in center and italic*/
 #description {
     text-align: center;
-    font-style: italic;
+    font-style: bold;
+    margin-bottom: 20px;
 }
 /*Puts the section contact information in color, and puts the list in the left*/
 #contact {
     background-color: rgb(235, 205, 141);
-    padding-left: 30px;
-    margin-right: 900px;
+    width: 30%;
     border-radius: 3px;
 }
-/*Puts this section in the middle next to the section contact information*/
-#experience {
-    float: right;
-    position: relative;
-    bottom: 640px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-}
-/*Puts this section in the middle next to the section contact information and bottom to the section experience*/
-#formation {
-    position: relative;
-    float: right;
-    bottom: 630px;
-    right: 140px;
-    margin-left: 50px;
-}
-/*Puts the link to my profil GitHub in the right of the link of my profil Linkedin*/
-#linkgithub {
-    margin-left: 57px;
-}
 
+/*Puts this section in the middle next to the section contact information*/
+#mainexperience {
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+#divfooter {
+    background-color: rgb(142, 227, 233);
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
 
 
 
