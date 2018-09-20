@@ -96,6 +96,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*Put the police of the body*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Put police and size for the title h3*/
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
 /*Puts backgound color in blue, puts the background in circle and puts marge bottom the header*/
 header {
     width: 100%;
@@ -134,19 +143,18 @@ ul li {
 
 /*Puts this section in the middle next to the section contact information*/
 #mainexperience {
-    position: relative;
-    width: 50%;
-    margin-left: 10%;
-    margin-right: 10%;
+    /*position: relative;*/
+    width: 60%;
+    margin-left: 8%;
     display: inline-block;
     vertical-align: top;
-
 }
+/*Puts the link in the footer, in the middle*/
 #divfooter {
     background-color: rgb(142, 227, 233);
     margin-top: 5%;
-    text-align: center;
-
+    display: flex;
+    justify-content: space-around;
 
 
 
@@ -165,9 +173,6 @@ ul li {
  * Hide visually and from screen readers
  */
 
-.hidden {
-    display: none !important;
-}
 
 /*
  * Hide only visually, but have it available for screen readers:
