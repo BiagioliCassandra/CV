@@ -124,6 +124,10 @@ footer {
 #description {
     color: black;
 }
+/*Unmount title in right*/
+.title_contact {
+    margin-left: 10px;
+}
 /*Color the line in list*/
 ul li {
     background-color: bisque;
@@ -143,7 +147,6 @@ ul li {
 
 /*Puts this section in the middle next to the section contact information*/
 #mainexperience {
-    /*position: relative;*/
     width: 60%;
     margin-left: 8%;
     display: inline-block;
