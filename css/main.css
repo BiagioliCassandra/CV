@@ -96,26 +96,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*Center and color principal title*/
-h1 {
-    color: rgb(146, 42, 56); 
-    text-align: center;
-}
-/*align the title in left*/
-h2 {
-    text-align: center; 
-    color: rgb(146, 42, 56); 
-}
-/*Color the line in list*/
-ul li {
-    background-color: bisque;
-}
 /*Puts backgound color in blue, puts the background in circle and puts marge bottom the header*/
 header {
     width: 100%;
     background-color: rgb(142, 227, 233);
     margin-bottom: 5%;
     border-radius: 3px;
+    color: rgb(146, 42, 56); 
+    text-align: center;
 }
 main {
     width: 100%;
@@ -123,37 +111,41 @@ main {
 footer {
     width: 100%;
 }
+/*Puts the lign description of header in black*/
+#description {
+    color: black;
+}
+/*Color the line in list*/
+ul li {
+    background-color: bisque;
+}
 /*Delete the puce*/
 .puce {
     list-style-type: none;
 }
-/*Puts the lign description of header in center and italic*/
-#description {
-    text-align: center;
-    font-style: bold;
-    margin-bottom: 20px;
-}
 /*Puts the section contact information in color, and puts the list in the left*/
-#contact {
+#contactinformation {
     background-color: rgb(235, 205, 141);
-    width: 30%;
+    width: 25%;
     border-radius: 3px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 /*Puts this section in the middle next to the section contact information*/
 #mainexperience {
     position: relative;
-    float: right;
     width: 50%;
     margin-left: 10%;
     margin-right: 10%;
+    display: inline-block;
+    vertical-align: top;
 
 }
 #divfooter {
     background-color: rgb(142, 227, 233);
     margin-top: 5%;
     text-align: center;
-    display: flex;
 
 
 
