@@ -1,4 +1,5 @@
-2e semaine de formation. 
+2e semaine de formation 
+
 Projet à réaliser : son CV en HTML/CSS
 
 Compétences acquises :
